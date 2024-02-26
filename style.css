@@ -87,7 +87,12 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color:red;
+    color: #ff004f;
+}
+
+.header-text p{
+    font-size: 30px;
+    color: white;
 }
 /* ----------------about------------------ */
 
@@ -116,10 +121,22 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 
+
 .sub-title{
     font-size: 45px;
+    margin-bottom: 10px;
     font-weight: 600;
+    color: red;
+}
+
+.sub-header{
+    font-size: 30px;
+    margin-bottom: 15px;
     color: white;
+}
+
+.body{
+    line-height: 1.5;
 }
 
 .tab-titles{
@@ -159,11 +176,20 @@ nav ul li a:hover::after{
 
 .tab-contents ul li span{
     color: #b54769;
-    font-size: 14px;
+    font-size: 20px;
     display: block;
-    margin-bottom: 0.5px;
+    margin-bottom: 0.9px;
 }
 
+.tab-contents ul li span2{
+    font-size: 13px;
+    display: block;
+    line-height: 0;
+}
+
+.tab-contents ul li span3{
+    font-size: 16px;
+}
 .tab-contents{
     display: none;
 }
@@ -171,6 +197,8 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
+
+
 
 /* ----------- services ----------- */
 
