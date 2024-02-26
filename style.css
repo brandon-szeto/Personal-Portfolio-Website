@@ -198,6 +198,13 @@ nav ul li a:hover::after{
     display: block;
 }
 
+.tab-contents ul li icontext{
+    font-size: 20px;
+}
+
+.tab-contents ul li iconpic{
+    font-size: 25px;
+}
 
 
 /* ----------- services ----------- */
